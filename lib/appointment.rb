@@ -5,6 +5,7 @@ class Appointment
   def initialize(date, doctor)
     self.date = date
     self.doctor = doctor
+    doctor.appointments << self
   end
 
 end
