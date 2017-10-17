@@ -1,7 +1,7 @@
 class Doctor
   attr_accessor :name
 
-  def initilize(name)
+  def initialize(name)
     self.name = name
     @appointments = []
   end
