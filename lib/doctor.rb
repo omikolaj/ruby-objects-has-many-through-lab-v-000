@@ -3,6 +3,7 @@ class Doctor
 
   def initilize(name)
     self.name = name
+    @appointments = []
   end
 
-end 
+end
